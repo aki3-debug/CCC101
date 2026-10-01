@@ -2,16 +2,16 @@
 
 int main (void)
 {
-    float a, b;
+    float Ashley, Padecio;
 
     printf("++Magic Float Calculator++\n\n");
-
+    printf("+-------------------------+\n");
     printf("Enter first number:");
-    scanf("%f", &a);
+    scanf("%f", &Ashley);
     printf("Enter second number:");
-    scanf("%f", &b);
-
-    printf("\n%2.f + %2.f = %2.f\n", a, b, a + b);
-    printf("Thank you master for using my calculator!\n");
+    scanf("%f", &Padecio);
+    printf("+-------------------------+\n"); 
+    printf("\n%.2f + %.2f = %.2f\n", Ashley, Padecio, Ashley + Padecio);
+    printf("Thank you gwapo for using my calculator!\n");
     return 0;
 }
